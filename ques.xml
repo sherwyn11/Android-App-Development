@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/f55c3e91a01f62d0a70714e957ae3b80"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/msgview"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:divider="@null"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"></ListView>
+
+
+
+
+    <Button
+        android:id="@+id/button_next_question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@id/button_next_question3"
+        android:background="@drawable/buttonchat"
+        android:text=" Not at all " />
+
+    <Button
+        android:id="@+id/button_next_question2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_above="@id/button_next_question3"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/buttonchat"
+        android:layout_marginRight="8dp"
+        android:text=" Several Days " />
+
+    <Button
+        android:id="@+id/button_next_question3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/buttonchat"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentLeft="true"
+        android:text=" Nearly everyday " />
+
+    <Button
+        android:id="@+id/button_next_question4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonchat"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:text=" More than half the days " />
+
+
+
+    </RelativeLayout>
